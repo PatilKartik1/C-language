@@ -1,0 +1,11 @@
+{
+  "C_Cpp.errorSquiggles": "enabled",
+  "files.associations": {
+    "HKL.C": "cpp",
+    "DIGITSUM.C": "cpp",
+    "stdio.h": "c"
+  },
+  "C_Cpp.dimInactiveRegions": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
