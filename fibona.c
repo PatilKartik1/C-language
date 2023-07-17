@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int n;
@@ -9,12 +8,11 @@ int main()
     int fin[n];
     fin[0] = 0;
     fin[1] = 1;
-
+    printf("%d\t%d\t", fin[0], fin[1]);
     for (int i = 2; i < n; i++)
     {
         fin[i] = fin[i - 1] + fin[i - 2];
         printf("%d\t", fin[i]);
     }
-
     return 0;
 }
