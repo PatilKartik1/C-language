@@ -1,1 +1,1 @@
- // }
+printf("fin of %d is %d\n",n,fibN);

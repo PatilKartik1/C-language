@@ -1,16 +1,15 @@
-#include <stdio.h>
-#include <conio.h>
+#include <stdio.h> 
 int main()
 {
-    int num, remainder, sum = 0;
+    int n;
     printf("Enter num:");
-    scanf("%d", &num);
-    for (int num = 0; num > 0; num++)
+    scanf("%d", &n);
+
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
     {
-        remainder = num % 10;
-        sum += remainder;
-        num = 10;
-        printf("sum id %d", num);
-        return 0;
+        sum += i;
     }
+    printf(" sum is %d\n", sum);
+    return 0;
 }
