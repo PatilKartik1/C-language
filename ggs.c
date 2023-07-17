@@ -20,5 +20,5 @@ int main()
 
     // printf("%d", strcmp(str1, str2));
 
-        return 0;
+    return 0;
 }

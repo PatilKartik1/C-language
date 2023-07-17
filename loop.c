@@ -1,20 +1,20 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 void table(int n);
 int main()
 {
     int n;
     printf("Enter numb");
-    scanf("%d",&n);
+    scanf("%d", &n);
 
     table(n);
     return 0;
+}
 
-} 
-
-void table(int n){
-    for (int i=1; i <= 10; i++){
-     printf("%d\n",i*n);
+void table(int n)
+{
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d\n", i * n);
     }
-    
 }
